@@ -1,6 +1,10 @@
+/* Sandra Bolos
+301260176
+COMP229-Midterm exam*/
+
 import { Router } from 'express';
 
-let router = Router();
+const router = Router();
 
 import {DisplayHomePage} from '../controllers/index.js';
 

@@ -1,3 +1,7 @@
+/* Sandra Bolos
+301260176
+COMP229-Midterm exam*/
+
 import mongoose from 'mongoose';
 const Schema = mongoose.Schema;
 

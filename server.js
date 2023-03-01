@@ -1,3 +1,6 @@
+/* Sandra Bolos
+301260176
+COMP229-Midterm exam*/
 import debug from 'debug';
 debug('comp-229');
 import http from 'http';

@@ -1,3 +1,7 @@
+/* Sandra Bolos
+301260176
+COMP229-Midterm exam*/
+
 // modules required for routing
 import { Router } from "express";
 

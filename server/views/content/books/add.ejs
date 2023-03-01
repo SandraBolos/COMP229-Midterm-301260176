@@ -9,7 +9,10 @@
                     <input type="text" class="form-control"
                     id="nameTextField"
                     placeholder="Enter the Book Title"
-                    name="name" required>
+                    name="name"
+                    value="<%=book.name %>"
+                     required>
+                 
                 </div>
 
                 <div class="form-group">
@@ -17,7 +20,9 @@
                     <input type="text" class="form-control"
                     id="authorTextField"
                     placeholder="Enter the Book's Author"
-                    name="author" required>
+                    name="author" 
+                    value="<%=book.author %>"
+                    required>
                 </div>
 
                 <div class="form-group">
@@ -25,7 +30,9 @@
                     <input type="text" class="form-control"
                     id="publishedTextField"
                     placeholder="Enter the Year of Publication"
-                    name="published" required>
+                    name="published" 
+                    value="<%= book.published %>"
+                    required>
                 </div>
 
                 <div class="form-group">
@@ -33,7 +40,9 @@
                     <textarea type="text" class="form-control"
                     id="descriptionTextArea"
                     placeholder="Enter the a brief description of the book"
-                    name="description" required></textarea>
+                    name="description" 
+                    value="<%= book.description %>"
+                    required></textarea>
                 </div>
 
                 <div class="form-group">
@@ -41,7 +50,9 @@
                     <input type="text" class="form-control"
                     id="priceTextField"
                     placeholder="Enter the Book's Price"
-                    name="price" required>
+                    name="price" 
+                    value="<%= book.price %>"
+                    required>
                 </div>
 
                 <button class="btn btn-primary" type="submit">
